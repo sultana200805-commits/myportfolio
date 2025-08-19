@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sultana Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Sultana</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="d-flex flex-column justify-content-center align-items-center text-center">
+    <img src="images/MyPhoto.jpeg" alt="Profile Photo">
+    <h1>Sultana Khatun</h1>
+    <p class="lead">BCA Student | Aspiring Software Developer</p>
+    <p>I love coding, problem-solving, and creating impactful projects.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container text-center">
+      <div class="row">
+          <div class="col-md-8 m-auto">
+             <h2 class="mb-4">About Me</h2>
+              <p class="fs-5">Hello! My name is Sultana Khatun, and I am a final-year Bachelor of Computer Applications (BCA) student with a strong interest in software development, problem-solving, and real-world applications of technology.</p>
+
+              <p class="fs-5">I enjoy working with Python, SQL and Web Development, and I have been building projects that combine creativity with logical thinking. I am also preparing for internships and roles in software engineering, where I can apply my skills to contribute to meaningful projects while continuing to learn and grow.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container text-center">
+      <h2 class="mb-4">Technical Skills</h2>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <button class="btn btn-outline-primary rounded-pill">Python</button>
+        <button class="btn btn-outline-danger rounded-pill">HTML</button>
+        <button class="btn btn-outline-warning rounded-pill">CSS</button>
+        <button class="btn btn-outline-dark rounded-pill">SQL</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Diabetes Prediction System</h5>
+              <p class="card-text">A machine learning project predicting diabetes based on patient health records.</p>
+              <a href="https://github.com/yourgithub/diabetes-prediction" target="_blank" class="btn btn-primary">GitHub Link</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <img src="images/project1.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Website</h5>
+              <p class="card-text">A responsive personal portfolio website built with HTML, CSS, and Bootstrap.</p>
+              <a href="https://github.com/yourgithub/portfolio" target="_blank" class="btn btn-primary">GitHub Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="contact-box">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Write your message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-success w-100">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Sultana Khatun | All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
